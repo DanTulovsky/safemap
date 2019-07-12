@@ -14,7 +14,7 @@ type SafeMapItem struct {
 	Value interface{}
 }
 
-func NewSafeMap() *SafeMap {
+func New() *SafeMap {
 	return &SafeMap{
 		data: make(map[string]interface{}),
 	}
